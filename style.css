@@ -1,0 +1,106 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid white;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+  }
+  
+  #zerar button {
+    border: 0;
+    color: #ffffff;
+    background: blue;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #zerar button:hover {
+    opacity: 0.8;
+  }
+  
+  #vitoria {
+    border: 0;
+    background: green;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  #vitoria:hover {
+    opacity: 0.8;
+  }
+  
+  #empate {
+    border: 0;
+    background: yellow;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  #empate:hover {
+    opacity: 0.8;
+  }
+  
+  #derrota {
+    background: #ff0000;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  #derrota:hover {
+    opacity: 0.8;
+  }
